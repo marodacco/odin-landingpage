@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 16px 200px 130px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-header1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.container-header2 {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+}
+
+.header a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.header h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.placeholder {
+  width: 520px;
+  height: 240px;
+  background-color: #666666;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-header3 {
+  margin-right: 32px;
+}
+
+.header p {
+  color: #e5e7eb;
+}
+
+.header button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 8px 32px;
+  border: none;
+  border-radius: 8px;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 16px;
+}
+
+/* .information {
+}
+
+.quote {
+}
+
+.signup {
+} */
+
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 40px;
+}
