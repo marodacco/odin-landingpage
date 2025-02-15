@@ -39,10 +39,8 @@ body {
 
 .header ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   display: flex;
-  gap: 16px;
+  gap: 24px;
 }
 
 .header a {
@@ -71,12 +69,13 @@ body {
 
 .header p {
   color: #e5e7eb;
+  margin-top: 4px;
 }
 
 .header button {
   background-color: #3882f6;
   color: #f9faf8;
-  padding: 8px 32px;
+  padding: 8px 40px;
   border: none;
   border-radius: 8px;
   font-family: Roboto, sans-serif;
@@ -86,13 +85,56 @@ body {
 }
 
 /* .information {
-}
+} */
 
 .quote {
+  background-color: #e5e7eb;
+  padding: 140px 320px 90px;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.author {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: right;
+  font-style: normal;
+  padding-right: 36px;
 }
 
 .signup {
-} */
+  background-color: #3882f6;
+  color: #f9faf8;
+  margin: 100px 200px;
+  padding: 50px 120px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signup h1 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.signup p {
+  color: #e5e7eb;
+  margin-top: 4px;
+}
+
+.signup button {
+  padding: 8px 40px ;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: 2px solid #f9faf8;
+  border-radius: 8px;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
 
 .footer {
   background-color: #1f2937;
